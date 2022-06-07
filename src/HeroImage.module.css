@@ -1,0 +1,9 @@
+.mobile-image {
+    width: 100vw;
+}
+
+.desktop-image {
+    height: 100%;
+    grid-column: 2 / -1;
+    grid-row: 1 / 3;
+}

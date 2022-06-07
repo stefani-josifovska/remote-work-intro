@@ -1,0 +1,98 @@
+.menu {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 70vw;
+    background-color: white;
+    z-index: 100;
+}
+
+li {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.2em;
+    line-height: 3rem;
+    padding-left: 10%;
+}
+
+li:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 5rem;
+    padding-left: 0;
+}
+
+.close-button {
+    margin: 2rem;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 0;
+}
+
+.close-button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.backdrop {
+    height: 100vh;
+    width: 100vw;
+    z-index: 90;
+    background-color: rgba(20, 20, 20, 0.5);
+    position: absolute;
+}
+
+.login-button {
+    text-align: center;
+    width: 80%;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: transparent;
+    color: hsl(0, 0%, 41%);
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.register-button {
+    text-align: center;
+    width: 80%;
+    height: 3rem;
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: transparent;
+    color: hsl(0, 0%, 41%);
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.login-button:hover {
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+.register-button:hover {
+    color: hsl(0, 0%, 8%);
+    border-color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    margin-left: 15px;
+}

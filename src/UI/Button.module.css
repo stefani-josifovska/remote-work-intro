@@ -1,0 +1,27 @@
+.button-style {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    text-align: center;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.button-style:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: hsl(0, 0%, 8%);
+    border: 2px solid hsl(0, 0%, 8%);
+}
+
+@media (min-width: 900px) {
+    .button-style {
+        width: 15vw;
+        height: max(3rem, 7vh);
+        font-size: max(1vw, 1em);
+    }
+}

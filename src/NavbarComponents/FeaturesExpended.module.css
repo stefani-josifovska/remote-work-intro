@@ -1,0 +1,28 @@
+.features-expanded-list {
+    margin-top: 0;
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.image-expanded-list {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+@media (min-width: 900px) {
+    .features-expanded-list {
+        background-color: white;
+        box-shadow: 0 0 15px gray;
+        border-radius: 10px;
+        text-align: center;
+        width: 200px;
+        position: relative;
+        top: 8rem;
+        left: -25rem;
+    }
+    .company-expanded-position {
+        top: 7rem;
+        left: -15rem;
+    }
+}

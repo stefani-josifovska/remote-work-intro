@@ -1,0 +1,40 @@
+.container {
+    background-color: transparent;
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1rem 10%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Epilogue', sans-serif;
+}
+
+@media (min-width: 900px) {
+    h1 {
+        font-size: 5em;
+        font-size: 5.5vw;
+    }
+    p {
+        font-size: 1.2em;
+        font-size: 1.5vw;
+    }
+    .container {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1rem 5%;
+    }
+
+
+}

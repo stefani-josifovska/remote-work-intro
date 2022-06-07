@@ -1,0 +1,22 @@
+.arrow {
+  margin-left: 15px;
+}
+
+.navbar-desktop {
+  display: flex;
+  height: 3rem;
+  display: flex;
+  margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+  
+@media (min-width: 900px) {
+    li:hover {
+        background-color: transparent;
+        font-weight: 700;
+    }
+}
