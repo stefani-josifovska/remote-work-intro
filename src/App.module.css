@@ -6,9 +6,9 @@
   .desktop-version {
     width: 100vw;
     display: grid;
-    grid-template-columns: 7fr 5fr;
+    grid-template-columns: 8fr 4fr;
     grid-template-rows: 10fr 2fr;
-    padding: 0 2rem;
+    padding: 0 5%;
     box-sizing: border-box;
     max-height: calc(100vh - 6rem);
   }
